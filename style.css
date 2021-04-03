@@ -1,0 +1,181 @@
+/* Colors and Fonts */
+body {
+	background-color: white;
+	color:rgb(107, 112, 92);
+	font-family: 'Poppins', sans-serif;
+	font-size:20px;
+	font-weight: medium;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	color:rgb(107, 112, 92);	
+	font-size: 40px;
+}
+
+h2, h3,h4 {
+	font-family: Courrier;
+	font-size: 25px;
+	font-weight: lighter bolder;
+	color:rgb(105, 78, 63);
+}
+
+
+h5 {
+	font-size: 24px;
+	font-family:'Poppins', sans-serif;
+	font-weight: medium;
+}
+
+a {
+	text-decoration: none;
+	color:rgb(40, 54, 24);
+}
+
+a:hover {
+	color: rgb(183, 183, 164);
+}
+
+/*custom design with class */
+
+.img-circle { 
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+div {
+	background: white;
+	padding: 30px;
+	border-radius: 4px
+	box-shadow: 0 15px 35px rgba(50,50,93,.1);
+}
+	.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.13);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+}
+
+
+
+.btnfashion-blue {
+background: rgba(40, 54, 24,0.1);
+color: rgb(107, 112, 92);
+padding: 5px 5px;
+border-radius: 5px;
+font-size: 18px;
+}
+
+.btnfashion-blue:hover {
+background-color: rgb(107, 112, 92);
+color: white;
+font-size: 20px;
+}
+
+
+.btnmusic-blue {
+background: rgba(40, 54, 24,0.1);
+color: rgb(107, 112, 92);
+padding: 5px 5px;
+border-radius: 5px;
+font-size: 18px;
+}
+
+.btnmusic-blue:hover {
+background-color: rgb(107, 112, 92);
+color: white;
+font-size: 20px;
+}
+
+.btnessec-blue {
+background: rgba(40, 54, 24,0.1);
+color: rgb(105, 78, 63);
+padding: 5px 5px;
+border-radius: 5px;
+font-size: 18px;
+}
+
+.btnessec-blue:hover {
+background-color: rgb(107, 112, 92);
+color: white;
+font-size: 18px;
+}
+
+.container {
+width: 700px;
+margin: 10px auto;
+}
+
+@media (max-width: 960px) {
+.container {
+width: 700px;
+}
+}
+@media (max-width: 720px) {
+.container {
+width: 500px;
+}
+}
+@media (max-width: 540px) {
+.container {
+width: 300px;
+}
+}
+.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.13);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.container{
+	background-color: white;
+	padding: 30px
+	border-radius:4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	width: 700px;
+	margin: 40px auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.list-inline i{
+font-size: 60px;
+color: rgb(183, 183, 164);
+}
+.list-inline i:hover {
+font-size: 70px;
+color: rgb(105, 78, 63);
+}
+
+
+
+/* Design adjustments using id (1% design remaining) */
+#Header p {
+margin-bottom: 10px;
+margin-top: 30px;
+}
+#fashionbtn p{
+margin: 30px
+}
+
+#musicbtn p{
+margin: 30px
+}
+
+
+
